@@ -32,7 +32,7 @@ setup(
     description="Easy-to-use Modbus RTU and Modbus ASCII implementation for Python",
     long_description=readme + '\n\n' + history,
     install_requires = ['pyserial'],
-    py_modules = ['minimalmodbus', 'eurotherm3500', 'omegacn7500', 'dummy_serial'],
+    py_modules = ['minimalmodbus', 'eurotherm3500', 'omegacn7500', 'dummy_serial', 'eurotherm3216'],
     keywords='minimalmodbus modbus serial RTU ASCII',
     classifiers=[
         'Development Status :: 4 - Beta',
